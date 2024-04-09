@@ -1,21 +1,22 @@
-# Insider Threat Encoder and Decoder
+This repository contains Python script for encoding and decoding messages using a custom cipher.
 
-This repository contains Python scripts for encoding and decoding messages using a custom cipher. The purpose of this project is to demonstrate encoding and decoding techniques for educational and testing purposes.
-
-The Rise of Insider Threats
+***The Rise of Insider Threats***
 Insider threats, once primarily associated with accidental actions or disgruntled employees, have taken on a more sophisticated and intentional dimension. Today, malicious insiders strategically exploit their access and knowledge of organizational systems to execute targeted attacks. What's more alarming is their use of custom ciphers to cloak their activities from traditional security measures.
 
-Custom Ciphers: An Obfuscation Tactic
+**Custom Ciphers:**
+
+An Obfuscation Tactic
 Custom ciphers provide insiders with a powerful tool to evade detection. By encoding sensitive information or payloads using unique cryptographic algorithms, insiders can disguise their actions as benign or indecipherable traffic. This technique effectively bypasses signature-based detection systems and raises the bar for incident response teams.
 
-Supply Chain Vulnerabilities
+**Supply Chain Vulnerabilities**
+
 Critical supply chain infrastructure, comprising interconnected networks and systems, is a prime target for insider threats. Attackers can infiltrate supplier networks, compromise software dependencies, or manipulate production processes—all while concealing their activities through encrypted communications. This not only jeopardizes operational integrity but also poses severe risks to downstream customers and stakeholders.
 
-Actor Type: Malicious Insider (Privileged User)
+***Actor Type:*** Malicious Insider (Privileged User)
 
-Motivation: Financial Gain, Espionage, Sabotage
+***Motivation:*** Financial Gain, Espionage, Sabotage
 
-Access Level: Elevated privileges within critical supply chain infrastructure
+***Access Level:*** Elevated privileges within critical supply chain infrastructure
 
 ## Attack Scenario:
 ## Initial Access:
@@ -25,17 +26,17 @@ The insider's objective is to exfiltrate sensitive data or disrupt operations wi
 
 ## Payload Obfuscation:
 
-The insider employs custom cryptographic algorithms (e.g., proprietary cipher or modified encryption methods) to obfuscate payloads containing stolen data or malicious commands.
+The insider employs custom cryptographic algorithms (e.g., proprietary cipher or modified encoding or encryption methods) to obfuscate payloads containing stolen data or malicious commands.
 Custom ciphers make it challenging for security tools to detect and interpret the nature of communications.
 
 ## Data Exfiltration:
 
-Encrypted payloads, disguised as innocuous traffic, are transmitted through legitimate communication channels (e.g., API calls, software updates).
+Encoded payloads, Encrypted payloads, disguised as innocuous traffic, are transmitted through legitimate communication channels (e.g., API calls, software updates).
 The insider may leverage supply chain dependencies (e.g., software libraries, firmware) to embed malicious payloads or access sensitive information.
 
 ## Evasion Tactics:
 
-The insider takes steps to evade detection, such as masking data exfiltration within high-volume traffic or encrypting communications to bypass network-based security controls.
+The insider takes steps to evade detection, such as masking data exfiltration within high-volume traffic or both encoding && encrypting communications to bypass network-based security controls.
 Custom ciphers enable the insider to operate stealthily, minimizing the risk of immediate discovery.
 
 ## Impact on Supply Chain:
